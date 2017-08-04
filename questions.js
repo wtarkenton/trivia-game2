@@ -1,11 +1,11 @@
 //Questions Array
 var questions = [{
-  "question": "Are dolphins fish?"
-  "option1": "Maybe" 
-  "option2": "yes"
-  "option3": "Not sure"
-  "option4": "They are mammals"
-  "answer": "4"
+  "question": "Are dolphins fish?",
+  "option1": "Maybe",
+  "option2": "yes",
+  "option3": "Not sure",
+  "option4": "They are mammals",
+  "answer": "4",
 }, {
   "question": "What is the Chicken of the Sea?"
   "option1": "Sea Chicken"

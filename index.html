@@ -4,17 +4,10 @@
 	<title>Under C Level</title>
 	<link href="reset.css" rel="reset">
 	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 	 <div id="show-number"> THis is where the Time should count down</div>
-	 <script type="text/javascript">
-
-    
-
-    </script>
-
-<!-- jQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<div id="quizContainer" class="container">
 		<div class="title">Under C Level</div>
@@ -23,13 +16,13 @@
 		<label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
 		<label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
 		<label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
-		<button id="nextButton" class="next-btn" oneclick="loadNextQuestion;">Next Question</button>
+		<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
 	</div>
 	<div id="result" class="container result" style="display:none;">
 	</div>
 	
 
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 
 
 </body>
